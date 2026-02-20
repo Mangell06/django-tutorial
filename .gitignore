@@ -1,0 +1,67 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Entorno virtual
+venv/
+env/
+ENV/
+.venv/
+
+# Variables de entorno
+.env
+.env.*
+*.env
+
+# Django stuff
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media/
+
+# Static files (si usas collectstatic)
+staticfiles/
+
+# Archivos de migración compilados
+*.mo
+*.pot
+
+# Archivos temporales
+*.swp
+*.bak
+*.tmp
+
+# Archivos de IDE
+.vscode/
+.idea/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Coverage / testing
+htmlcov/
+.coverage
+.coverage.*
+.cache
+pytest_cache/
+
+# mypy
+.mypy_cache/
+
+# Archivos de distribución
+build/
+dist/
+*.egg-info/
+
+# Logs
+*.log
+
+# Archivos de configuración sensibles
+*.pem
+*.key
